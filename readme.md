@@ -128,7 +128,7 @@
     $ docker compose down
     ```
 
-    - Para remover os contêineres, rede padrão e também o banco de dados (persistido/volume) utilize esse comando:
+    - Para remover os contêineres, rede padrão e também o banco de dados (volumes) utilize esse comando:
 
     ```
     $ docker compose down --volumes
