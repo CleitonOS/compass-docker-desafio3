@@ -19,7 +19,7 @@
 
 ## 🖥️ Instalando tudo que é necessário (Passo 1)<a name = "step1"></a>
 
-- Nesse desafio será preciso ter instalado o **Docker** e o **Docker-compose** (Para mais informações, acesse o desafio 1 no link abaixo com instruções para instalação).
+- Nesse desafio será preciso ter instalado o **Docker** e o **Docker-compose** (Para mais informações para instalação, acesse o "desafio 1" destacado logo abaixo).
 
 - Para instalar os outros utilitários necessários acompanhe essa mesma seção no [Desafio 1](https://github.com/CleitonOS/compass-docker-desafio1) com todas as informações.
 
@@ -92,16 +92,6 @@
 
     - Lembre-se de indentar o código YAML corretamente (**Com dois espaços de diferença**).
 
-3. Verifique se os contêineres estão execução:
-
-    ```
-    $ sudo docker compose ps
-    ```
-
-- Esses são os serviços em execução:
-
-    <img src="./Screenshots/containers-status.png" min-width="50%">
-
 ## ▶️ Construa as imagens (Passo 3)<a name = "step3"></a>
 
 1. Execute o seguinte comando, para criar os contêineres do WordPress e do PostgreSQL e iniciá-los em segundo plano:
@@ -111,6 +101,15 @@
     ```
 
     - Executa o comando a partir do diretório do projeto.
+
+2. Verifique se os contêineres estão execução:
+
+    ```
+    $ sudo docker compose ps
+    ```
+- Esses são os serviços em execução:
+
+    <img src="./Screenshots/containers-status.png" min-width="50%">
 
 ## ⚙️ Configure o Wordpress (Passo 4)<a name = "step3"></a>
 
